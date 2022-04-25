@@ -19,7 +19,6 @@ class RestingState(TaskTemplate):
     keys = ["space", yes_key_name, no_key_name, quit_code]
 
     next = f"Pour passer à l'instruction suivante, appuyez sur la touche {yes_key_name}"
-    def
     instructions = [
         f"Avant de commencer les tâches cognitives, nous allons faire un exercice de relaxation."]
     def task(self, no_trial, exp_start_timestamp, trial_start_timestamp, practice=False):
