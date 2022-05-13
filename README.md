@@ -4,7 +4,6 @@
 
 * Introduction
 * Resting State Task
-* Task design example
 * Requirements
 * Contributions
 * More informations
