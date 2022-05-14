@@ -16,7 +16,7 @@ class RestingState(TaskTemplate):
     quit_code = "q"
     good_luck = "Vous allez garder vos yeux fermés pendant 5 minutes."
     #exp_start_timestamp = time.time()
-    response_pad = False
+    response_pad = True
     keys = ["space", yes_key_name, no_key_name, quit_code]
 
     next = f"Pour passer à l'instruction suivante, appuyez sur la touche {yes_key_name}"
