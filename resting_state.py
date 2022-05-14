@@ -9,16 +9,12 @@ height = screen.height
 
 
 class RestingState(TaskTemplate):
-    yes_key_name = "p"
+    yes_key_name = "p"z
     yes_key_code = "p"
     no_key_code = "a"
     no_key_name = "a"
     quit_code = "q"
     good_luck = "Vous allez garder vos yeux fermés pendant 5 minutes."
-<<<<<<< HEAD
-    #exp_start_timestamp = time.time()
-=======
->>>>>>> 8454f89f40fdd9c73e9f48d72737e71e5f7d64ad
     response_pad = True
     keys = ["space", yes_key_name, no_key_name, quit_code]
 
