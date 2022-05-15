@@ -9,7 +9,7 @@ height = screen.height
 
 
 class RestingState(TaskTemplate):
-    yes_key_name = "p"z
+    yes_key_name = "p"
     yes_key_code = "p"
     no_key_code = "a"
     no_key_name = "a"
@@ -22,10 +22,7 @@ class RestingState(TaskTemplate):
     instructions = [
         f"Avant de commencer les tâches cognitives, nous allons faire un exercice de relaxation."]
 
-    def task(self, no_trial, exp_start_timestamp=False, practice=False): #trial_start_timestamp?
-        #self.create_visual_text(f"Vous allez garder vos yeux fermés pendant 5 min.").draw()
-        #self.win.flip()
-        #self.wait_yes(False)
+    def task(self, no_trial, exp_start_timestamp=False, practice=False):
         self.create_visual_text(
             f"La seule consigne: gardez les yeux fermés jusqu'à ce que l'instructeur vous demande de les rouvrir.").draw()
         self.win.flip()
