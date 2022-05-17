@@ -1,6 +1,6 @@
 # Resting State Task 
 
-##CONTENTS OF THIS FILE
+## CONTENTS OF THIS FILE
 
 * Introduction
 * Resting State Task
@@ -10,11 +10,11 @@
 * Contact
 
 
-##INTRODUCTION
+## INTRODUCTION
 
 Our research team is studying different aspects of psychiatric disorders. Our present project is all about exploring obssessive compulsive disorders' secret garden. For that matter, we designed original home-made cognitive tasks, fresh out of the oven!
 
-##Resting State Task
+## Resting State Task
 
 Sorry to disappoint you, but nothing is happening in this task. But we are interested in YOU doing absolutely nothing, can you imagine that ?!
 
@@ -25,9 +25,9 @@ This is the first task of the experiment. It is kind of a *"me time"* before the
 The instructions are written in french, and are designed for "Trackpad" response.
 
 
-##REQUIREMENTS
+## REQUIREMENTS
 
-###Imports :
+### Imports :
 
 We use the package PsychoPy under Python 3.6 to run the tasks. Furthermore, Resting State Task requires the import of time, as the time spent by the participants is a valuable data.
 ```python
@@ -53,7 +53,7 @@ Here's the <a href="https://github.com/ICRIN-lab/Template_Task_Psychopy.git"> li
 
 
 
-###Specificities :
+### Specificities :
 
 If you want to try this cognitive task using your keyboard, don't forget to the response_pad to False
 
@@ -62,15 +62,15 @@ class RestingState(TaskTemplate):
     response_pad = False  # has to be set on "True" if a trackpad is used.
 ```
 
-##Contributions
+## Contributions
 
 To contribute, please fork the repository, hack in a feature branch, and send a pull request.
 
-##More informations
+## More informations
 
 Homepage: [iCRIN Lab](http://icrin.fr/)
 
-##Contact us
+## Contact us
 
 Mail : contact@icrin.fr
 Twitter : https://twitter.com/RedwanMaatoug
